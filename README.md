@@ -1,3 +1,3 @@
 Simple weight converter app built using React.
 
-DEMO: 
+DEMO: https://kelleyfraser.github.io/weight-converter-app/
