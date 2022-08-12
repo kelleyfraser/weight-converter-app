@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/weight-converter-app/static/css/main.9efaac49.css",
+    "main.js": "/weight-converter-app/static/js/main.f5158051.js",
+    "static/js/787.8d85a53d.chunk.js": "/weight-converter-app/static/js/787.8d85a53d.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/weight-converter-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/weight-converter-app/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/weight-converter-app/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/weight-converter-app/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/weight-converter-app/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/weight-converter-app/index.html",
+    "main.9efaac49.css.map": "/weight-converter-app/static/css/main.9efaac49.css.map",
+    "main.f5158051.js.map": "/weight-converter-app/static/js/main.f5158051.js.map",
+    "787.8d85a53d.chunk.js.map": "/weight-converter-app/static/js/787.8d85a53d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9efaac49.css",
+    "static/js/main.f5158051.js"
+  ]
+}
