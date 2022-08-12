@@ -1,9 +1,11 @@
+import React from 'react';
+import Weights from './components/weights';
 import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app">
+      <Weights />
     </div>
   );
 }

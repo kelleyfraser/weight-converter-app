@@ -30,9 +30,10 @@ $theme-colors: (
 );
 
 $primary: #001C55;
+$secondary: #D3D0CB;
 
 // Import Bootstrap
-@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap/scss/bootstrap';
 
 .app {
   .btn-icon {
@@ -41,6 +42,18 @@ $primary: #001C55;
 
   .btn-icon:hover{
     cursor: pointer;
+  }
+
+  .is-primary-text {
+    color: $primary; 
+  }
+
+  .is-white-text {
+    color: white;
+  }
+
+  .is-secondary-background {
+    background-color: $secondary;
   }
 }
 
@@ -52,7 +65,7 @@ $primary: #001C55;
   padding: 10px 20px;
 
   .appName {
-    margin-top: 40px;
+    margin-top: 35px;
   }
 
   .btn-icon {
@@ -65,31 +78,21 @@ $primary: #001C55;
   }
 }
 
-.body-container {
- min-height: calc(100vh - 173px);
+.form-container {
+  min-height: 200px;
+  padding-top: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
 
-  td {
-    vertical-align: middle;
-  }
-
-  .isBlue {
-    color: $primary;
-  }
-
-  .isBlue:hover {
-    color: darkblue;
-  }
-
-  .fa-circle-o {
-    color: $primary;
-  }
-
-  .fa-check-circle {
-    color: #25d701dd;
-  }
-
-  .striked {
-    text-decoration: line-through;
-    color: gray
+.results-container {
+  padding: 0 40px;
+  .card {
+    border: none;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
   }
 }
